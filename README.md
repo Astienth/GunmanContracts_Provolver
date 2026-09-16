@@ -19,5 +19,6 @@ If using two PROVOLVER, it will automatically set hand based on device channel: 
 It creates files in the game directory in the folder UserData: right.pro and left.pro.
 If you want to modify what devices to use with what hand:
 - swap the physical device
+OR
 - rename right.pro to left.pro and left.pro to right.pro
 
