@@ -15,8 +15,11 @@ Protube devices support for Gunman Contracts
 
 ## Dual Wield
 
-If using two PROVOLVER, it will automatically set hand based on device channel: channel pistol1 will be right hand and channel pistol2 will be left hand.
+1. If using two PROVOLVER, it will automatically set hand based on device channel: channel pistol1 will be right hand and channel pistol2 will be left hand.
 It creates files in the game directory in the folder UserData: right.pro and left.pro.
 If you want to modify what devices to use with what hand:
 - swap the physical device OR rename right.pro to left.pro and left.pro to right.pro
+
+2. If using one provolver and one forcetube AND you want both devices to be used on the same side (left or right hand):
+Create an empty text file in the folder UserData, named either "sameHandRight.txt" or "sameHandLeft.txt"
 
